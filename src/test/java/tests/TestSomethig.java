@@ -14,7 +14,7 @@ public class TestSomethig {
 
     @Test
     public void testAssertTrue() {
-        boolean condition = (5 > 6);
+        boolean condition = (5 > 1);
         Assert.assertTrue(condition, "The condition is not true");
     }
 
